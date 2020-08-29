@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="nl">
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10">
   <siteinfo>
     <sitename>WikiWoordenboek</sitename>
     <dbname>nlwiktionary</dbname>
@@ -48,7 +48,7 @@
       <comment>Categorie vervangen (geen artikelcategorie): Sjablonen -&gt; WikiWoordenboek:Sjablonen, Replaced: ]]&lt;/noinclude&gt; → ]]</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="361" xml:space="preserve">__NOTOC__
+      <text bytes="361">__NOTOC__
 [[#A|A]] - [[#B|B]] - [[#C|C]] - [[#D|D]] - [[#E|E]] - [[#F|F]] - [[#G|G]] - [[#H|H]] - [[#I|I]] - [[#J|J]] - [[#K|K]] - [[#L|L]] - [[#M|M]] - [[#N|N]] - [[#O|O]] - [[#P|P]] - [[#Q|Q]] - [[#R|R]] - [[#S|S]] - [[#T|T]] - [[#U|U]] - [[#V|V]] - [[#W|W]] - [[#X|X]] - [[#Y|Y]] - [[#Z|Z]]&lt;noinclude&gt;
 [[Categorie:WikiWoordenboek:Sjablonen|abc]]
 &lt;/noinclude&gt;</text>
@@ -71,7 +71,7 @@
       <comment>fix Lint error Verouderde HTML-tags</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="910" xml:space="preserve">&lt;!-- eerst wit-regel is in ieder geval nodig wegens bugje --&gt;
+      <text bytes="910">&lt;!-- eerst wit-regel is in ieder geval nodig wegens bugje --&gt;
 {| align=center 
 |- align=center 
 |&lt;big&gt;&lt;big&gt;'''Deze pagina is buiten gebruik genomen'''&lt;/big&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Omdat de pagina '''auteursrechten''' schond of lijkt te schenden is deze pagina op de [[WikiWoordenboek:Verzoeken/Te_verwijderen_ pagina's|'''lijst met te verwijderen pagina's''']] gezet.&lt;br&gt;Als u een auteursrechtenvrije invulling voor deze pagina weet,&lt;br&gt;aarzel dan vooral niet en vervang deze tekst door uw bijdrage. &lt;br&gt;Vergeet dan niet deze pagina van de [[WikiWoordenboek:Verzoeken/Te_verwijderen_ pagina's|'''lijst met te verwijderen pagina's''']] te halen...
@@ -103,7 +103,7 @@
       <comment>+ gmh, + dum</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="6688" xml:space="preserve">{{=nld=}}
+      <text bytes="6688">{{=nld=}}
 {{-pron-}}
 *{{sound}}: {{audio|nl-ja.ogg|ja|nld}}
 *{{WikiW|IPA}}: {{IPA|/jaː/|nld}}
@@ -410,7 +410,7 @@
       </contributor>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1528" xml:space="preserve">{{=nld=}}
+      <text bytes="1528">{{=nld=}}
 {{-pron-}}
 *{{sound}}: {{audio|nl-{{pn}}.ogg|{{pn}}|nld}}
 *{{WikiW|IPA}}: {{IPA|/nen/|nld}}

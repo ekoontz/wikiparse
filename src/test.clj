@@ -45,6 +45,10 @@
 
 (defn wtf []
   (with-open [input (java.io.FileInputStream. "small-notext.xml")]
+    (parse input :include-node? #{:element})))
+
+(defn wtf2 []
+  (with-open [input (java.io.FileInputStream. "small.xml")]
     (parse input)))
 
 
