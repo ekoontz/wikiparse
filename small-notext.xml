@@ -1,109 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10">
-  <siteinfo>
-    <sitename>WikiWoordenboek</sitename>
-    <dbname>nlwiktionary</dbname>
-    <base>https://nl.wiktionary.org/wiki/Hoofdpagina</base>
-    <generator>MediaWiki 1.35.0-wmf.39</generator>
-    <case>case-sensitive</case>
-    <namespaces>
-      <namespace key="-2" case="case-sensitive">Media</namespace>
-      <namespace key="-1" case="first-letter">Speciaal</namespace>
-      <namespace key="0" case="case-sensitive" />
-      <namespace key="1" case="case-sensitive">Overleg</namespace>
-      <namespace key="2" case="first-letter">Gebruiker</namespace>
-      <namespace key="3" case="first-letter">Overleg gebruiker</namespace>
-      <namespace key="4" case="case-sensitive">WikiWoordenboek</namespace>
-      <namespace key="5" case="case-sensitive">Overleg WikiWoordenboek</namespace>
-      <namespace key="6" case="case-sensitive">Bestand</namespace>
-      <namespace key="7" case="case-sensitive">Overleg bestand</namespace>
-      <namespace key="8" case="first-letter">MediaWiki</namespace>
-      <namespace key="9" case="first-letter">Overleg MediaWiki</namespace>
-      <namespace key="10" case="case-sensitive">Sjabloon</namespace>
-      <namespace key="11" case="case-sensitive">Overleg sjabloon</namespace>
-      <namespace key="12" case="case-sensitive">Help</namespace>
-      <namespace key="13" case="case-sensitive">Overleg help</namespace>
-      <namespace key="14" case="case-sensitive">Categorie</namespace>
-      <namespace key="15" case="case-sensitive">Overleg categorie</namespace>
-      <namespace key="828" case="case-sensitive">Module</namespace>
-      <namespace key="829" case="case-sensitive">Overleg module</namespace>
-      <namespace key="2300" case="case-sensitive">Uitbreiding</namespace>
-      <namespace key="2301" case="case-sensitive">Overleg uitbreiding</namespace>
-      <namespace key="2302" case="case-sensitive">Uitbreidingsdefinitie</namespace>
-      <namespace key="2303" case="case-sensitive">Overleg uitbreidingsdefinitie</namespace>
-    </namespaces>
-  </siteinfo>
   <page>
-    <title>Sjabloon:Abc</title>
-    <ns>10</ns>
-    <id>545</id>
     <revision>
-      <id>385757</id>
-      <parentid>321056</parentid>
-      <timestamp>2009-02-27T23:19:37Z</timestamp>
-      <contributor>
-        <username>RomaineBot</username>
-        <id>1261</id>
-      </contributor>
-      <comment>Categorie vervangen (geen artikelcategorie): Sjablonen -&gt; WikiWoordenboek:Sjablonen, Replaced: ]]&lt;/noinclude&gt; → ]]</comment>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="361">__NOTOC__
-[[#A|A]] - [[#B|B]] - [[#C|C]] - [[#D|D]] - [[#E|E]] - [[#F|F]] - [[#G|G]] - [[#H|H]] - [[#I|I]] - [[#J|J]] - [[#K|K]] - [[#L|L]] - [[#M|M]] - [[#N|N]] - [[#O|O]] - [[#P|P]] - [[#Q|Q]] - [[#R|R]] - [[#S|S]] - [[#T|T]] - [[#U|U]] - [[#V|V]] - [[#W|W]] - [[#X|X]] - [[#Y|Y]] - [[#Z|Z]]&lt;noinclude&gt;
-[[Categorie:WikiWoordenboek:Sjablonen|abc]]
-&lt;/noinclude&gt;</text>
-      <sha1>bi8etnmzsj2ze2s86i59t60cmq68n5l</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Sjabloon:auteur</title>
-    <ns>10</ns>
-    <id>597</id>
-    <revision>
-      <id>3498823</id>
-      <parentid>1333160</parentid>
-      <timestamp>2017-05-17T10:57:49Z</timestamp>
-      <contributor>
-        <username>MarcoSwart</username>
-        <id>9001</id>
-      </contributor>
-      <minor />
-      <comment>fix Lint error Verouderde HTML-tags</comment>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="910">&lt;!-- eerst wit-regel is in ieder geval nodig wegens bugje --&gt;
-{| align=center 
-|- align=center 
-|&lt;big&gt;&lt;big&gt;'''Deze pagina is buiten gebruik genomen'''&lt;/big&gt;&lt;/big&gt;&lt;br&gt;&lt;br&gt;Omdat de pagina '''auteursrechten''' schond of lijkt te schenden is deze pagina op de [[WikiWoordenboek:Verzoeken/Te_verwijderen_ pagina's|'''lijst met te verwijderen pagina's''']] gezet.&lt;br&gt;Als u een auteursrechtenvrije invulling voor deze pagina weet,&lt;br&gt;aarzel dan vooral niet en vervang deze tekst door uw bijdrage. &lt;br&gt;Vergeet dan niet deze pagina van de [[WikiWoordenboek:Verzoeken/Te_verwijderen_ pagina's|'''lijst met te verwijderen pagina's''']] te halen...
-|}
-
-&lt;div style=&quot;text-align:center&quot;&gt;'''Oorspronkelijke tekst:'''&lt;/div&gt;
-----
-&lt;includeonly&gt;
-{{ #ifeq: {{FULLPAGENAME}} | WikiWoordenboek:Lijst van sjablonen | | [[Categorie:WikiWoordenboek:Weg]] }}
-&lt;/includeonly&gt;&lt;noinclude&gt;
-[[Categorie:Verwijdersjablonen|auteur]]
-&lt;/noinclude&gt;</text>
-      <sha1>gysqqu5xysi2792le2pvodni51bpv6y</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>ja</title>
-    <ns>0</ns>
-    <id>786</id>
-    <revision>
-      <id>3955909</id>
-      <parentid>3955886</parentid>
-      <timestamp>2019-09-08T14:32:28Z</timestamp>
-      <contributor>
-        <username>Zatev</username>
-        <id>13779</id>
-      </contributor>
-      <minor />
-      <comment>+ gmh, + dum</comment>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="6688">{{=nld=}}
+      <text>{{=nld=}}
 {{-pron-}}
 *{{sound}}: {{audio|nl-ja.ogg|ja|nld}}
 *{{WikiW|IPA}}: {{IPA|/jaː/|nld}}
@@ -393,24 +292,11 @@
 {{-adverb-|swe}}
 '''ja'''
 # {{Q|ja|nld}}</text>
-      <sha1>l66vjxvyeaz6cyx99w6p56ehj6ae8yt</sha1>
     </revision>
   </page>
   <page>
-    <title>neen</title>
-    <ns>0</ns>
-    <id>787</id>
     <revision>
-      <id>3767846</id>
-      <parentid>3540439</parentid>
-      <timestamp>2018-07-23T09:37:25Z</timestamp>
-      <contributor>
-        <username>Kvdrgeus</username>
-        <id>10538</id>
-      </contributor>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="1528">{{=nld=}}
+      <text>{{=nld=}}
 {{-pron-}}
 *{{sound}}: {{audio|nl-{{pn}}.ogg|{{pn}}|nld}}
 *{{WikiW|IPA}}: {{IPA|/nen/|nld}}
@@ -454,7 +340,6 @@
 {{wel-GB}}
 {{crr13|N=98|V=100}}
 {{refs}}</text>
-      <sha1>dij1xgto6fndjtycitkfmyjyfb34dbr</sha1>
     </revision>
   </page>
 </mediawiki>
