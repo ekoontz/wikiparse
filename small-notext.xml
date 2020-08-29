@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <mediawiki>
-  <text>{{=nld=}}
+  <text>
+    {{=nld=}}
 {{-pron-}}
 *{{sound}}: {{audio|nl-ja.ogg|ja|nld}}
 *{{WikiW|IPA}}: {{IPA|/jaː/|nld}}
@@ -46,7 +47,6 @@
 {{expr|num=1|'''ja''' kun je krijgen, nee heb je al|wordt gebruikt als bemoediging voor iemand die ertegen opziet om iets te vragen}}
 {{expr|num=1|'''ja''' en neen is een lange strijd|wordt gebruikt wanneer er twee het oneens zijn en niemand wil toegeven}}
 {{expr|num=1|iemand geloven bij '''ja''' en neen|iemand op zijn erewoord geloven}}
-
 {{-trans-}}
 {{trans-top|1. duidt bevestiging of instemming aan}}
 *{{afr}}: {{trad|af|ja}}
@@ -132,16 +132,12 @@
 {{wel-GB}}
 {{crr13|N=100|V=100}}
 {{refs}}
-
-
 {{=afr=}}
 {{-pron-}}
 {{audio-afr}}
 {{-adverb-|afr}}
 '''ja'''
 #[[inderdaad]]
-
-
 {{=bos=}}
 {{-bspronom-pers-1-}}
 {{-pron-}}
@@ -152,8 +148,6 @@
 {{-pronom-pers-|bos}}
 '''jâ'''
 #[[ik]]
-
-
 {{=deu=}}
 {{-adverb-|deu}}
 '''ja'''
@@ -169,26 +163,18 @@
 *[5] [[oder]]
 {{-ant-}}
 *[1] [[nein]]
-
-
 {{=epo=}}
 {{-adverb-|epo}}
 '''ja'''
 # [[inderdaad]]
-
-
 {{=fin=}}
 {{-conj-|fin}}
 '''ja'''
 # [[en]]
-
-
 {{=ido=}}
 {{-adverb-|ido}}
 '''ja'''
 #[[reeds]]
-
-
 {{=hrv=}}
 {{-hrpronom-pers-1-}}
 {{-pron-}}
@@ -199,30 +185,22 @@
 {{-pronom-pers-|hrv}}
 '''jâ'''
 #[[ik]]
-
-
 {{=lav=}}
 {{-conj-|lav}}
 '''ja'''
 #[[wanneer]]
-
-
 {{=gmh=}}
 {{-pron-}}
 * {{WikiW|IPA}}: {{IPA|/jaː/|gmh}}
 {{-adverb-|gmh}}
 '''ja'''
 # {{Q|ja|nld}}
-
-
 {{=dum=}}
 {{-pron-}}
 * {{WikiW|IPA}}: {{IPA|/jaː/|dum}}
 {{-adverb-|dum}}
 '''ja'''
 # {{Q|ja|nld}}
-
-
 {{=nor=}}
 {{-pron-}}
 *{{sound}}: {{audio|no-ja.ogg|ja|nor}}
@@ -233,8 +211,6 @@
 {{-adverb-|nor}}
 '''ja'''
 # {{Q|ja|nld}}
-
-
 {{=fro=}}
 {{-adverb-|fro}}
 '''ja'''
@@ -243,20 +219,14 @@
 {{-writ-}}
 *[[jà]]
 {{refs}}
-
-
 {{=odt=}}
 {{-adverb-|odt}}
 '''ja'''
 # {{Q|ja|nld}}; duidt bevestiging, instemming, toestemming, inwilliging of toegeving aan
-
-
 {{=osx=}}
 {{-adverb-|osx}}
 '''ja'''
 # {{Q|ja|nld}}
-
-
 {{=pol=}}
 {{-plpronom-pers-1-}}
 {{-pron-}}
@@ -267,8 +237,6 @@
 {{-pronom-pers-|pol}}
 '''ja'''
 # [[ik]]
-
-
 {{=slk=}}
 {{-skpronom-pers-1-}}
 {{-pron-}}
@@ -279,8 +247,6 @@
 {{-pronom-pers-|slk}}
 '''ja'''
 # [[ik]]
-
-
 {{=swe=}}
 {{-pron-}}
 *{{sound}}: {{audio|sv-ja.ogg|ja|swe}}
