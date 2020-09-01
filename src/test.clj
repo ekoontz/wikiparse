@@ -20,8 +20,8 @@
              first)]
     (->
      (->> page
-          (filter #(= clojure.data.xml.node.Element (type %)))
-          (filter #(= :xmlns.http%3A%2F%2Fwww.mediawiki.org%2Fxml%2Fexport-0.10%2F/revision (:tag %)))
+          (filter #(= (type %) clojure.data.xml.node.Element))
+          (filter #(= (:tag %) :xmlns.http%3A%2F%2Fwww.mediawiki.org%2Fxml%2Fexport-0.10%2F/revision))
           (mapcat :content)
           (filter #(= (type %) clojure.data.xml.node.Element))
           (filter #(= (:tag %) :xmlns.http%3A%2F%2Fwww.mediawiki.org%2Fxml%2Fexport-0.10%2F/text)))
