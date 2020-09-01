@@ -10,7 +10,7 @@
 (def wholething (with-open
                   [input (java.io.FileInputStream.
                           "nlwiktionary-20200701-pages-articles.xml")]
-                  (parse input :input-buffer-length (int (Math/pow 2 27)))))
+                  (parse input :input-buffer-length (int (Math/pow 2 28)))))
 
 (def one-page
   (nth (->> (-> wholething :content)
@@ -26,9 +26,6 @@
   (->> (-> small :content)
        (filter #(= (type %) clojure.data.xml.node.Element))
        (filter #(= (:tag %) :xmlns.http%3A%2F%2Fwww.mediawiki.org%2Fxml%2Fexport-0.10%2F/page))))
-
-(def a-few-titles
-  (map page-title a-few-pages))
 
 (def all-pages
   (->> (-> wholething :content)
@@ -48,6 +45,9 @@
    :content
    first))
 
+(def a-few-titles
+  (map page-title a-few-pages))
+
 (defn get-revision [page]
   )
 
@@ -60,4 +60,50 @@
   (doall
    (map println
         (sort (map page-title all-pages)))))
+
+
+(def uitspraak
+  (->> all-pages
+       (take 100)
+       (filter #(= (page-title %) "uitspraak"))
+       (map :content)
+       first))
+
+(def revision-content
+  (->> uitspraak
+       (filter #(= clojure.data.xml.node.Element (type %)))
+       (filter #(= :xmlns.http%3A%2F%2Fwww.mediawiki.org%2Fxml%2Fexport-0.10%2F/revision (:tag %)))
+       (map :content)
+       first))
+
+(def actual-content
+  (-> (->> revision-content
+           (filter #(= (type %) clojure.data.xml.node.Element))
+           (filter #(= (:tag %) :xmlns.http%3A%2F%2Fwww.mediawiki.org%2Fxml%2Fexport-0.10%2F/text)))
+      first :content first))
+
+(defn lookup [canonical-form]
+  (let [page
+        (->> all-pages
+             (take 100000)
+             (filter #(= (page-title %) canonical-form))
+             (map :content)
+             first)]
+    (->
+     (->> page
+          (filter #(= clojure.data.xml.node.Element (type %)))
+          (filter #(= :xmlns.http%3A%2F%2Fwww.mediawiki.org%2Fxml%2Fexport-0.10%2F/revision (:tag %)))
+          (mapcat :content)
+          (filter #(= (type %) clojure.data.xml.node.Element))
+          (filter #(= (:tag %) :xmlns.http%3A%2F%2Fwww.mediawiki.org%2Fxml%2Fexport-0.10%2F/text)))
+     first
+     :content
+     first)))
+
+
+
+
+
+
+
 
