@@ -1,3 +1,5 @@
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ekoontz/wikiparse.svg)](https://clojars.org
+
 # Introduction
 
 Clojure library for retrieving wiktionary pages from wiktionary dumps.
