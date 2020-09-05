@@ -22,10 +22,10 @@ $ bunzip2 nlwiktionary-20200701-pages-articles.xml.bz2
 ## Install data.xml with woodstox support
 
 ```
-git clone git@github.com:ekoontz/data.xml.git
-cd data.xml
-git checkout upgraded-dependencies-with-woodstox
-lein install
+$ git clone git@github.com:ekoontz/data.xml.git
+$ cd data.xml
+$ git checkout upgraded-dependencies-with-woodstox
+$ lein install
 ```
 
 # Demo
