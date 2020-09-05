@@ -1,4 +1,4 @@
-(defproject wiktionary "0.0.1-SNAPSHOT"
+(defproject wikiparse "0.0.1-SNAPSHOT"
   :description "Parse wiktionary dumps and lookup pages within them"
   :url "https://github.com/ekoontz/wiktionary"
   :license {:name "Eclipse Public License"

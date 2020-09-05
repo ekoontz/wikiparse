@@ -51,15 +51,15 @@ OpenJDK 64-Bit Server VM 14.0.1+7
 
 user=> (load "core")
 nil
-user=> (in-ns 'wiktionary)
-#object[clojure.lang.Namespace 0x694b8f32 "wiktionary"]
-wiktionary=> (subs (lookup "hond") 0 30)
+user=> (in-ns 'wikiparse)
+#object[clojure.lang.Namespace 0x694b8f32 "wikiparse"]
+wikiparse=> (subs (lookup "hond") 0 30)
 "[[Bestand:Rottweiler3.jpg|thum"
-wiktionary=> (subs (lookup "kat") 0 30)
+wikiparse=> (subs (lookup "kat") 0 30)
 "{{=universeel=}}\n{{-etym-}}\n* "
-wiktionary=> (subs (lookup "jongen") 0 30)
+wikiparse=> (subs (lookup "jongen") 0 30)
 "[[Bestand:Albert Anker - Schul"
-wiktionary=> (subs (lookup "meisje") 0 30)
+wikiparse=> (subs (lookup "meisje") 0 30)
 "[[Bestand:Leon Fortunski Schle"
-wiktionary=>
+wikiparse=>
 ```
