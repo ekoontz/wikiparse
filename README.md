@@ -10,6 +10,10 @@ library that uses the
 [Woodstox](https://github.com/FasterXML/woodstox) XML parsing library
 rather than the built-in JVM-provided one, in order to handle wikimedia's large `text` sections.
 
+## Related work
+
+- [wiktionary: get word definitions from wikitionary.org](https://github.com/leonardiwagner/wiktionary)
+
 # Setup
 
 ## Get wiktionary dump XML file
