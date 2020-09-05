@@ -1,4 +1,33 @@
+# Introduction
 
+Clojure API for retrieving wiktionary pages from wiktionary dumps. 
+
+# Setup
+
+## Get wiktionary dump XML file
+
+```
+$ wget https://dumps.wikimedia.org/nlwiktionary/20200801/nlwiktionary-20200701-pages-articles.xml.bz2
+$ bunzip nlwiktionary-20200701-pages-articles.xml.bz2
+```
+
+## Install data.xml with woodstox support
+
+```
+git clone git@github.com:ekoontz/data.xml.git
+cd data.xml
+git checkout upgraded-dependencies-with-woodstox
+lein install
+```
+
+# Demo
+
+The following `(lookup)`s correspond to the following wiktionary pages:
+
+- [hond](https://nl.wiktionary.org/wiki/hond)
+- [kat](https://nl.wiktionary.org/wiki/kat)
+- [jongen](https://nl.wiktionary.org/wiki/jongen)
+- [meisje](https://nl.wiktionary.org/wiki/meisje)
 
 ```
 $ lein repl
