@@ -30,10 +30,10 @@ lein install
 
 The following `(lookup)`s correspond to the following wiktionary pages:
 
-- [hond](https://nl.wiktionary.org/wiki/hond)
-- [kat](https://nl.wiktionary.org/wiki/kat)
-- [jongen](https://nl.wiktionary.org/wiki/jongen)
-- [meisje](https://nl.wiktionary.org/wiki/meisje)
+- [hond (dog)](https://nl.wiktionary.org/wiki/hond)
+- [kat (cat)](https://nl.wiktionary.org/wiki/kat)
+- [jongen (boy)](https://nl.wiktionary.org/wiki/jongen)
+- [meisje (girl)](https://nl.wiktionary.org/wiki/meisje)
 
 ```
 $ lein repl
