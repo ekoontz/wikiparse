@@ -47,9 +47,8 @@ Wikiparse's `(lookup)` function retrieves this underlying wikitionary source cod
 entries. You can see the wikitionary source by clicking on the
 "Bewerken" (edit) tab on the above wikitionary pages. For example, you
 can see how [the wikitionary source
-code](https://nl.wiktionary.org/w/index.php?title=hond&action=edit)
-differs from the end-user HTML for
-['hond'](https://nl.wiktionary.org/wiki/hond).
+code for 'hond'](https://nl.wiktionary.org/w/index.php?title=hond&action=edit)
+differs from [the end-user HTML for 'hond'](https://nl.wiktionary.org/wiki/hond).
 
 # Demo
 
