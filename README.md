@@ -67,5 +67,49 @@ wikiparse=> (subs (lookup "jongen") 0 30)
 "[[Bestand:Albert Anker - Schul"
 wikiparse=> (subs (lookup "meisje") 0 30)
 "[[Bestand:Leon Fortunski Schle"
+wikiparse=> (demo)
+[[Bestand:Rottweiler3.jpg|thumb|right|200px|Een hond]]
+{{=nld=}}
+{{-pron-}}
+*{{sound}}: {{audio|nl-{{pn}}.ogg|{{pn}}|nld}}
+*{{WikiW|IPA}}:
+**{{pron-reg|N=a}} {{IPA|/ˈɦɔnt/|nld}}
+**{{pron-reg|V=a}} {{IPA|/ˈɦɔnt/|nld}}
+**{{pron-reg|L=a}} {{IPA|/ˈhɔnd/|nld}}
+{{-syll-}}
+*hond
+{{-etym-}}
+* In de betekenis van ‘hondachtige’ voor het eerst aangetroffen in het jaar 901-1000 {{sijs}} {{ebank|hond1}}
+* In de betekenis van ‘landmaat van 100 roeden’ voor het eerst aangetroffen in het jaar 1130-1161 {{sijs}} {{ebank|hond2}}
+*{{((}}
+*afkomstig van:
+:{{dum}}: hont
+:{{odt}}: hunt
+:{{gem}}: *hundaz
+{{=}}
+*Verwant in Germaans:
+---
+{{=universeel=}}
+{{-etym-}}
+* Afgeleid van [[katal]]
+{{-symbool-}}
+'''{{pn}}'''
+#{{natuurkunde|geentaal}}, {{eenheid|geentaal}} het symbool voor [[katal]], een [[eenheid]] voor [[katalytische activiteit]]
+{{-rel-}}
+{{eenheden-katal}}
+
+{{=nld=}}
+{{-pron-}}
+*{{sound}}: {{audio|nl-{{pn}}.ogg|{{pn}}|nld}}
+*{{WikiW|IPA}}: {{IPA-nl-standaard|kɑt}}
+{{-syll-}}
+*kat
+{{-etym-}}
+* Leenwoord uit het Latijn, in de betekenis van ‘katachtige’ voor het eerst aangetroffen in het jaar 1210 {{sijs}}
+* In de betekenis van ‘standje’ voor het eerst aangetroffen in het jaar 1976 {{sijs}}
+{{-nlnoun-|kat|[[katten]]|[[katje]]|[[katjes]]}}
+{{-noun-|nld}}
+---
+nil
 wikiparse=>
 ```

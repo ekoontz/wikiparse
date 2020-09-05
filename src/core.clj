@@ -42,18 +42,10 @@
 (defn split-lines [wiki-content]
   (split wiki-content #"\n"))
 
-(defn demo []
-  (count (->> (-> (lookup "hond") split-lines) (take 40) (map println)))
+(defn demo
+  "print the first 20 lines of wiki content for two pages ('hond' and 'kat')"
+  []
+  (count (->> (-> (lookup "hond") split-lines) (take 20) (map println)))
   (println "---")
-  (count (->> (-> (lookup "kat") split-lines) (take 40) (map println)))
-  (println "---")
-  (count (->> (-> (lookup "kind") split-lines) (take 40) (map println)))
+  (count (->> (-> (lookup "kat") split-lines) (take 20) (map println)))
   (println "---"))
-
-
-
-
-
-
-
-
