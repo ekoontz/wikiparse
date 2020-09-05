@@ -32,6 +32,25 @@ $ git checkout upgraded-dependencies-with-woodstox
 $ lein install
 ```
 
+# Wiktionary source code
+
+Wiktionary entries are formatted in a line-oriented template markup
+language that is more similar to Markdown than to a tag-oriented
+language like XML or HTML. The former, line-oriented template language
+is what wiktionary authors use to create the entries, which are then
+formatted by wikimedia web server software to produce the
+HTML-formatted output that end-users read on their web browser. These
+wikitionary source entries are embedded as text sections within the
+XML tags in the wiktionary dump files.
+
+Wikiparse's `(lookup)` function retrieves this underlying wikitionary source code
+entries. You can see the wikitionary source by clicking on the
+"Bewerken" (edit) tab on the above wikitionary pages. For example, you
+can see how [the wikitionary source
+code](https://nl.wiktionary.org/w/index.php?title=hond&action=edit)
+differs from the end-user HTML for
+['hond'](https://nl.wiktionary.org/wiki/hond).
+
 # Demo
 
 The following `(lookup)`s correspond to the following wiktionary pages:
@@ -40,17 +59,6 @@ The following `(lookup)`s correspond to the following wiktionary pages:
 - [kat (cat)](https://nl.wiktionary.org/wiki/kat)
 - [jongen (boy)](https://nl.wiktionary.org/wiki/jongen)
 - [meisje (girl)](https://nl.wiktionary.org/wiki/meisje)
-
-
-Wikiparse retrieves the underlying wikitionary source code entries,
-which is what wiktionary authors use to create the entries, rather
-than the HTML-formatted output that end-users read on their web
-browsers in the links above. You can see the wikitionary source by
-clicking on the "Bewerken" (edit) tab on the above wikitionary
-pages. For example, you can see how [the wikitionary source
-code](https://nl.wiktionary.org/w/index.php?title=hond&action=edit)
-differs from the end-user HTML for
-['hond'](https://nl.wiktionary.org/wiki/hond).
 
 ```
 $ lein repl
