@@ -41,7 +41,7 @@ is what wiktionary authors use to create the entries, which are then
 formatted by wikimedia web server software to produce the
 HTML-formatted output that end-users read on their web
 browser. Similarly, these wiktionary source code entries are embedded
-as text sections within an XML dump file and made available on
+as text sections within XML dump files, bzipped and made available on
 [dumps.wikimedia.org](https://dumps.wikimedia.org) as on the link
 shown above. 
 
