@@ -39,16 +39,20 @@ language that is more similar to Markdown than to a tag-oriented
 language like XML or HTML. The former, line-oriented template language
 is what wiktionary authors use to create the entries, which are then
 formatted by wikimedia web server software to produce the
-HTML-formatted output that end-users read on their web browser. These
-wikitionary source entries are embedded as text sections within the
-XML tags in the wiktionary dump files.
+HTML-formatted output that end-users read on their web
+browser. Similarly, these wiktionary source code entries are embedded
+as text sections within an XML dump file and made available on
+[dumps.wikimedia.org](https://dumps.wikimedia.org) as on the link
+shown above. 
 
-Wikiparse's `(lookup)` function retrieves this underlying wikitionary source code
-entries. You can see the wikitionary source by clicking on the
-"Bewerken" (edit) tab on a wiktionary page. For example, you
-can see how [the wikitionary source
-code for 'hond'](https://nl.wiktionary.org/w/index.php?title=hond&action=edit)
-differs from [the end-user HTML for 'hond'](https://nl.wiktionary.org/wiki/hond).
+Wikiparse's `(lookup)` function retrieves these underlying wikitionary
+source code entries nested as text within the XML dump file's tags. You can
+see the wikitionary source by clicking on the "Bewerken" (edit) tab on
+a wiktionary page. For example, you can see how [the wikitionary
+source code for
+'hond'](https://nl.wiktionary.org/w/index.php?title=hond&action=edit)
+differs from [the end-user HTML for
+'hond'](https://nl.wiktionary.org/wiki/hond).
 
 # Demo
 
