@@ -1,4 +1,4 @@
-(ns wiktionary
+(ns wikiparse
   (:require [clojure.data.xml :as xml :refer [parse]]
             [clojure.string :refer [split]]))
 
