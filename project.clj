@@ -6,5 +6,4 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [log4j/log4j "1.2.17"]
                  [org.clojure/tools.logging "1.1.0"]
-                 [org.clojure/data.xml "0-UE-DEVELOPMENT"]]
-  :jvm-opts ["-Xmx6g"])
+                 [org.clojure/data.xml "0-UE-DEVELOPMENT"]])
