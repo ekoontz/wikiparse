@@ -1,4 +1,4 @@
-(defproject org.clojars.ekoontz/wikiparse "0.0.2"
+(defproject org.clojars.ekoontz/wikiparse "0.0.3"
   :description "Parse wiktionary dumps and lookup pages within them"
   :url "https://github.com/ekoontz/wiktionary"
   :license {:name "Eclipse Public License"
