@@ -91,7 +91,7 @@ wikiparse=> (subs (lookup "meisje") 0 30)
 "[[Bestand:Leon Fortunski Schle"
 ```
 
-This function `(demo)`, shows the first 20 lines of the wikisource for three words: 'hond', 'kat', and 'kind':
+This function `(demo)`, shows the first 40 lines of the wikisource for three words: 'hond', 'kat', and 'kind':
 
 ```
 wikiparse=> (demo)
