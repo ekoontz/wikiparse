@@ -1,6 +1,12 @@
 # Introduction
 
-Clojure API for retrieving wiktionary pages from wiktionary dumps. 
+Clojure library for retrieving wiktionary pages from wiktionary dumps.
+Requires (for now) a [modified
+version](https://github.com/ekoontz/data.xml/tree/upgraded-dependencies-with-woodstox)
+of Clojure core's [`data.xml`](https://github.com/clojure/data.xml)
+library that uses the
+[Woodstox](https://github.com/FasterXML/woodstox) XML parsing library
+rather than the built-in JVM-provided one, in order to handle wikimedia's large `text` sections.
 
 # Setup
 
