@@ -49,7 +49,7 @@ OpenJDK 64-Bit Server VM 14.0.1+7
     Exit: Control+D or (exit) or (quit)
  Results: Stored in vars *1, *2, *3, an exception in *e
 
-user=> (load "test")
+user=> (load "core")
 nil
 user=> (in-ns 'wiktionary)
 #object[clojure.lang.Namespace 0x694b8f32 "wiktionary"]
