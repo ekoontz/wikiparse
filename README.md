@@ -181,7 +181,7 @@ wikiparse=> (demo)
 *[[kta]], [[tak]], [[TAK]], [[t.k.a.]]
 {{-hypo-}}
 
---- kat ---
+--- kind ---
 
 {{zie-ook|Kind}}
 {{=nld=}}
