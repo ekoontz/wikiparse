@@ -45,7 +45,7 @@ XML tags in the wiktionary dump files.
 
 Wikiparse's `(lookup)` function retrieves this underlying wikitionary source code
 entries. You can see the wikitionary source by clicking on the
-"Bewerken" (edit) tab on the above wikitionary pages. For example, you
+"Bewerken" (edit) tab on a wiktionary page. For example, you
 can see how [the wikitionary source
 code for 'hond'](https://nl.wiktionary.org/w/index.php?title=hond&action=edit)
 differs from [the end-user HTML for 'hond'](https://nl.wiktionary.org/wiki/hond).
