@@ -13,8 +13,8 @@ rather than the built-in JVM-provided one, in order to handle wikimedia's large 
 ## Get wiktionary dump XML file
 
 ```
-$ wget https://dumps.wikimedia.org/nlwiktionary/20200801/nlwiktionary-20200701-pages-articles.xml.bz2
-$ bunzip nlwiktionary-20200701-pages-articles.xml.bz2
+$ wget https://dumps.wikimedia.org/nlwiktionary/20200701/nlwiktionary-20200701-pages-articles.xml.bz2
+$ bunzip2 nlwiktionary-20200701-pages-articles.xml.bz2
 ```
 
 ## Install data.xml with woodstox support
