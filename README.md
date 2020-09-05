@@ -41,6 +41,17 @@ The following `(lookup)`s correspond to the following wiktionary pages:
 - [jongen (boy)](https://nl.wiktionary.org/wiki/jongen)
 - [meisje (girl)](https://nl.wiktionary.org/wiki/meisje)
 
+
+Wikiparse retrieves the underlying wikitionary source code entries,
+which is what wiktionary authors use to create the entries, rather
+than the HTML-formatted output that end-users read on their web
+browsers in the links above. You can see the wikitionary source by
+clicking on the "Bewerken" (edit) tab on the above wikitionary
+pages. For example, you can see how [the wikitionary source
+code](https://nl.wiktionary.org/w/index.php?title=hond&action=edit)
+differs from the end-user HTML for
+['hond'](https://nl.wiktionary.org/wiki/hond).
+
 ```
 $ lein repl
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
@@ -67,6 +78,11 @@ wikiparse=> (subs (lookup "jongen") 0 30)
 "[[Bestand:Albert Anker - Schul"
 wikiparse=> (subs (lookup "meisje") 0 30)
 "[[Bestand:Leon Fortunski Schle"
+```
+
+This function `(demo)`, shows the first 20 lines of the wikisource for two pages, 'hond' and 'kat':
+
+```
 wikiparse=> (demo)
 [[Bestand:Rottweiler3.jpg|thumb|right|200px|Een hond]]
 {{=nld=}}
