@@ -91,10 +91,12 @@ wikiparse=> (subs (lookup "meisje") 0 30)
 "[[Bestand:Leon Fortunski Schle"
 ```
 
-This function `(demo)`, shows the first 20 lines of the wikisource for two pages, 'hond' and 'kat':
+This function `(demo)`, shows the first 20 lines of the wikisource for three words: 'hond', 'kat', and 'kind':
 
 ```
 wikiparse=> (demo)
+--- hond ---
+
 [[Bestand:Rottweiler3.jpg|thumb|right|200px|Een hond]]
 {{=nld=}}
 {{-pron-}}
@@ -115,7 +117,29 @@ wikiparse=> (demo)
 :{{gem}}: *hundaz
 {{=}}
 *Verwant in Germaans:
----
+:'''West''': {{eng}}: [[hound]] ({{ang}}: hund), {{deu}}: [[Hund]], ({{goh}}: hunt), {{fry}}: [[hûn]], [[huund]] ([[Oudfries]]: hund)
+:'''Noord''': {{swe}}/{{dan}}/{{nor}}: [[hund]], ({{non}}: hundr), {{isl}}/{{fao}}: [[hundur]]
+:'''Oost''': {{got}}: [[hunds]]
+{{=}}
+*Verwant in Romaans:
+*{{fra}}: [[chien]]
+*{{ita}}: [[cane]]
+*{{lat}}: [[canis]]
+{{=}}
+* Verwant in andere talen:
+*{{ell}}: [[κύων]]
+{{))}}
+{{-nlnoun-|hond|[[honden]]|[[hondje]]|[[hondjes]]}}
+{{-noun-|nld}}
+'''{{pn}}''' {{m}}
+#{{dierkunde|nld}}, {{zoogdieren|nld}} {{species|Canis lupus familiaris}}, een zoogdier dat tot huisdier getemd is
+{{bijv-1|Een '''hond''' moet regelmatig uitgelaten worden.}}
+{{-hyper-}}
+*[[carnivoor]]
+*[[huisdier]]
+
+--- kat ---
+
 {{=universeel=}}
 {{-etym-}}
 * Afgeleid van [[katal]]
@@ -136,7 +160,69 @@ wikiparse=> (demo)
 * In de betekenis van ‘standje’ voor het eerst aangetroffen in het jaar 1976 {{sijs}}
 {{-nlnoun-|kat|[[katten]]|[[katje]]|[[katjes]]}}
 {{-noun-|nld}}
----
-nil
+'''{{pn}}''' {{f}}/{{m}}
+#{{zoogdieren|nld}} {{species|Felis sylvestris catus}}, tot de katachtigen behorende soort die tam is geworden
+#{{zoogdieren|nld}} gebruikt als naam voor een geslacht van vleesetende dieren, zoals de tijgers en leeuwen
+#{{informeel|nld}} een grote pluizige windprotectiehoes voor microfoons
+#een vals meisje
+#bitse terechtwijzing
+{{-homo-}}
+*[[qat]]
+{{-syn-}}
+*[1]: [[poes]]
+*[1]: [[dakhaas]]
+*[3]: [[korf]]
+*[5]: [[snauw]]
+{{-rel-}}
+*[1]: [[kater]]
+*[1]: [[kattin]]
+*[1]: [[siamees]]
+{{-ana-}}
+*[[kta]], [[tak]], [[TAK]], [[t.k.a.]]
+{{-hypo-}}
+
+--- kat ---
+
+{{zie-ook|Kind}}
+{{=nld=}}
+{{-pron-}}
+*{{sound}}: {{audio|nl-{{pn}}.ogg|{{pn}}|nld}}
+*{{WikiW|IPA}}: {{IPA-nl-standaard|kɪnt}}
+{{-syll-}}
+*kind
+{{-etym-}}
+* In de betekenis van ‘jong mens, zoon of dochter’ voor het eerst aangetroffen in 901 {{sijs}}
+*{{((}}
+*afkomstig van:
+:{{dum}}: kint
+:{{odt}}: kint
+:{{gem}}: *kindan
+:{{ine}}: *ǵenh₁tóm
+{{=}}
+*Verwant in Germaans:
+: {{deu}}: [[Kind]]
+: ({{goh}}: [[chind]]
+* {{fry}}: [[kyn]] ([[Oudfries]]: kind)
+{{=}}
+*Verwant in Romaans:
+: {{lat}}: [[gens#Latijn|gens]] (mens)
+: {{fra}}: [[gens#Frans|gens]] (mensen)
+: {{ita}}: [[gente]] (mensen)
+{{))}}
+{{-nlnoun-|{{pn}}|[[{{pn}}eren]],<br>[[{{pn}}ers]]|[[{{pn}}je]]|[[{{pn}}jes]],<br>[[{{pn}}ertjes]]|bezield=persoon|meta=fysiek}}
+{{-noun-|nld}}
+'''{{pn}}''' {{n}}
+#[[mens]] tussen 0 en 18 [[jaar]]
+{{citeer|boek|jaar=1973|auteur=Marijke van Raephorst |auteurlink=Marijke van Raephorst|titel=Het hele jaar rond: van Sinterklaas tot Sintemaarten|isbn=|pagina=10|uitgever=Lemniscaat|taal=nl|citaat=Van lieverlede werd hij echter beschouwd als de 'vriend der '''kinderen''''. In Nederland leest men over het St. Nicolaasfeest voor het eerst in het jaar 1360. De koorknaapjes in Dordrecht kregen er vrij voor. In optocht trokken zij door de stad en bedelden, met een smekend gebaar, hun bisschopsgeld bij elkaar. Maar in de zeventiende eeuw werd dit verboden!}}
+{{citeer|artikel|datum=09 aug. 2018|auteur=MARIEKE ’T HART|titel=Lang leve de Franse opvoeding!|url=https://www.telegraaf.nl/vrouw/2409552/lang-leve-de-franse-opvoeding|uitgever=De Telegraaf|taal=nl|citaat=Franse '''kinderen''' schreeuwen niet<br/>Terwijl Nederlandse moeders over het strand schallen: 'Kevin, hiieeerrr kooomeeen…’, praten Franse moeders alleen op gedempte toon met hun '''kinderen'''. Sterker nog; ik heb een heel gezin naast ons een hele dag lang alleen op fluistertoon met elkaar horen praten. Niemand viel uit zijn of haar rol. Heerlijk rustig. Waarom moeten wij eigenlijk altijd zo tetteren?}}
+#persoon voortkomend uit, [[zoon]] of [[dochter]]
+{{bijv-1|Zij laat haar '''{{pn}}''' bij de oppas achter.}}
+{{-syn-}}
+*[1] [[minderjarige#Zelfstandig naamwoord|minderjarige]]
+{{-rel-}}
+*[1] [[jongere]] (mens tussen 14 en 25 jaar)
+*[2] [[afstammeling]], [[nakomeling]], [[nazaat]], [[telg]]
+{{-hypo-}}
+40
 wikiparse=>
 ```
