@@ -1,4 +1,4 @@
-[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ekoontz/wikiparse.svg)
+![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ekoontz/wikiparse.svg)
 
 # Introduction
 
