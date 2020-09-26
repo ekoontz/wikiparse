@@ -5,7 +5,11 @@
 (def all-pages
  (with-open
    [input (java.io.FileInputStream.
-           "nlwiktionary-20200701-pages-articles.xml")]
+           (cond
+             true
+             "subwiki-1-30000.xml"
+             :else
+             "nlwiktionary-20200701-pages-articles.xml"))]
    (->>
     (->
      (parse input
@@ -26,8 +30,9 @@
 (defn lookup [canonical-form]
   (->
    (->> all-pages
-        (take 100000)
-        (filter #(= (page-title %) canonical-form))
+        (filter #(do
+                   (println (str "looking at title: " (page-title %)))
+                   (= (page-title %) canonical-form)))
         (map :content)
         first
         (filter #(= (type %) clojure.data.xml.node.Element))
@@ -39,21 +44,37 @@
    :content
    first))
 
+(def num-pages (atom 0))
+
+(defn lookup-short [canonical-form]
+  (->
+   (->> all-pages
+        (filter #(do
+                   (println (str "looking at title #" @num-pages ": " (page-title %)))
+                   (swap! num-pages inc)
+                   (= (page-title %) canonical-form)))
+        first)))
+
 (defn split-lines [wiki-content]
   (split wiki-content #"\n"))
 
 (defn demo []
   (println "--- hond ---")
   (println "")
-  (count (->> (-> (lookup "hond") split-lines) (take 40) (map println)))
+  (type (->> (-> (lookup-short "hond") println)))
   (println "")
   (println "--- kat ---")
   (println "")  
-  (count (->> (-> (lookup "kat") split-lines) (take 40) (map println)))
+  (type (->> (-> (lookup-short "kat") println)))
   (println "")
   (println "--- kind ---")
   (println "")  
-  (count (->> (-> (lookup "kind") split-lines) (take 40) (map println))))
+  (count (->> (-> (lookup-short "kind") println)))
+  (println "--- podá ---")
+  (println "")  
+  (count (->> (-> (lookup-short "podá") println))))
+
+
 
 
 
