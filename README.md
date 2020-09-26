@@ -13,6 +13,8 @@ rather than the built-in JVM-provided one, in order to handle wikimedia's large 
 ## Related work
 
 - [wiktionary: get word definitions from wikitionary.org](https://github.com/leonardiwagner/wiktionary)
+- [wikiparse: A python-based toolchain for high-power, high-speed usage of Wikipedia articles](https://github.com/scnerd/Wikiparse)
+- [Alternative MediaWiki parsers](https://www.mediawiki.org/wiki/Alternative_parsers)
 
 # Setup
 
